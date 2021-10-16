@@ -1,0 +1,81 @@
+body,html{
+    margin:0;
+    padding: 0;
+    background-color: rgb(235, 10, 10);
+    background: url('./assets/bg.jpg');
+    background-position-x: center;
+    background-size: cover;
+    color:white
+}
+.check{
+    border:3px solid black;
+}
+div{
+    clear:both
+}
+#Score{
+  height: 10px ;
+}
+#Score>p{
+  font-size: x-large;
+  float: left;
+}
+#Score>#rght{
+  float:right;
+  position:relative;
+  left:-200px;
+}
+h3 {
+  text-align: center;
+  max-width: 320px;
+}
+.button-area {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+}  li {
+    list-style: none;
+   background: rgba(5, 1, 1, 0.521);
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin: .3em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    line-height: 4;
+    vertical-align: middle;
+    text-align: center;
+    height:65px;
+    width:65px;
+    border-radius: 10px;
+  }
+  li:hover{
+      background-color: white;
+      color:black;
+      transition: all 1s;
+      text-shadow: 2px 3px 3px solid rgb(11, 121, 44);
+  }
+  .announce{
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: x-large;
+    background-color: green;
+    border:3px solid green;
+    border-radius: 5px;
+    color:burlywood
+  }
+h3{
+  text-align: center;
+}
+.active{background-color:yellow;
+color:black;}
+.active:hover{
+  background-color: yellow;
+  color:black;
+}

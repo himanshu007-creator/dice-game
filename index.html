@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv = "refresh" content = "3; url= trgt.html" /> -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div align="center" style="padding:100px 50px 100px 50px;color:black;background-color: aqua;height:900px;position:fixed;opacity:.9;width:100%;z-index:10">
+    <div style="border:2px solid black; border-radius: 10px; width:80% ;padding:10px 0 10px 0;position:relative; top:200px;">
+    <h1 align="center">Shall we start the game?</h1>
+    <input id="start" style="height:100px;width:150px;background-color: white;font-size: x-large;"type="button" value="Yes">
+    </div>
+    </div>
+
+    <!---Header section-->
+    <div  style="padding:10px 20px;height:70px;margin-bottom: 15px;">
+        <h1 align="center" style="font-family: monospace;">Roll the Dice!</h1>
+    </div>
+
+    <!-- Score section -->
+    <div id="Score" > <p id="selected">Selected Variable:</p><p id="rght">Score:0 </p></div>
+
+    <!---Dice section-->
+    <div style="margin-bottom: 15px;">
+        <center><img align="center" id="img" src="./assets/dice-roll.gif" height="120px" width="120px"alt="dice-face-1"></center>
+    </div>
+
+    <div id="timer" class="announce">Choose a number between 1-6 when timer starts</div>
+    <!---options section-->
+    <div  style="padding:5px 10px 0 10px">
+        <div class="button-area">
+            <li> 1</li>
+            <li> 2</li>
+            <li> 3</li>
+            <li> 4</li>
+            <li> 5</li>
+            <li> 6</li>
+          </div>
+    </div>
+    <div id="pts" class="announce"></div>
+<script src="./script.js"></script>
+</body>
+</html>
